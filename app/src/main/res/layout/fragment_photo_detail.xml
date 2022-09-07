@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_small"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/photo_camera_name"
+            tools:text="Camera name: Canon, EOS 100D"
+            style="@style/detailTextStyle" />
+
+        <TextView
+            android:id="@+id/photo_created"
+            style="@style/detailTextStyle"
+            tools:text="Created at: " />
+
+        <TextView
+            android:id="@+id/photo_likes"
+            style="@style/detailTextStyle"
+            tools:text="Likes: 73" />
+
+        <TextView
+            android:id="@+id/photo_views"
+            style="@style/detailTextStyle"
+            tools:text="Views: 1982" />
+
+        <TextView
+            android:id="@+id/photo_downloads"
+            style="@style/detailTextStyle"
+            tools:text="Downloads: 231" />
+
+        <ImageView
+            android:id="@+id/photo_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/photo"
+            android:scaleType="centerCrop"
+            tools:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_main"
+    app:startDestination="@id/photosListFragment">
+
+    <fragment
+        android:id="@+id/photosListFragment"
+        android:name="com.android.interview.ui.PhotosListFragment"
+        android:label="Interview android photos app" >
+        <action
+            android:id="@+id/action_list_to_detail"
+            app:destination="@id/photoDetailFragment"
+            app:enterAnim="@anim/slide_in_from_right"
+            app:exitAnim="@anim/slide_out_to_left"
+            app:popEnterAnim="@anim/slide_in_from_left"
+            app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetailFragment"
+        android:name="com.android.interview.ui.PhotoDetailFragment"
+        android:label="Image details" >
+        <argument
+            android:name="photo"
+            app:argType="com.android.interview.model.PhotoDTO"
+            app:nullable="false" />
+    </fragment>
+</navigation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="floating_action_button_padding_grid_two">16dp</dimen>
+
+    <dimen name="text_size_detail">16sp</dimen>
+
+    <dimen name="margin_small">6sp</dimen>
+    <dimen name="margin_default">10sp</dimen>
+</resources>

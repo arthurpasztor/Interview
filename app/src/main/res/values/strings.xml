@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Interview-Android-Assignment</string>
+    <string name="add_photos">Add Photos</string>
+    <string name="delete_photos">Delete All</string>
+
+    <string name="info_camera">Camera name: %1$s</string>
+    <string name="info_created_at">Created at: %1$s</string>
+    <string name="info_likes">Likes: %1$d</string>
+    <string name="info_views">Views: %1$d</string>
+    <string name="info_downloads">Downloads: %1$d</string>
+</resources>

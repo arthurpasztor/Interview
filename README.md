@@ -9,12 +9,6 @@ I used MVVM from Jetpack, also Room, Coroutines, Flow, Livedata, Retrofit, Glide
 As an Architecture, I implemented the following dependency pattern:
 View (Activity, Fragment) -> ViewModel -> Repository -> API/Room
 
-I did not have time to polish everything that makes the app and the user experience ehe best, but we can all talk about all
-technical decisions and challenges during the interview.
-
-Cheers,
-Arthur
-
 
 
 
